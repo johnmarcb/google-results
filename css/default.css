@@ -3,7 +3,7 @@
   --bg-color: #202124;
   --link-color: #8ab4f8;
   --primary-color: #bcc0c3;
-  --line-color: #9aa0a6;
+  --line-color: #3a3a3a;
 }
 
 body {
@@ -21,6 +21,9 @@ body {
 }
 section {
   padding: 2px 0;
+  margin-left: 182px;
+  max-width: 652px;
+  width: 100%;
 }
 
 ul {
@@ -56,7 +59,6 @@ hr {
   padding: 0;
   border: none;
   height: 1px;
-  color: var(--line-color);
   background-color: var(--line-color);
 }
 .container {
@@ -79,7 +81,7 @@ hr {
 .small-text {
   font-size: 14px;
 }
-.small-text span {
+.tiny-text {
   font-weight: 300;
   font-size: 12px;
 }
