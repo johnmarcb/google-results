@@ -34,6 +34,9 @@ nav {
 .top-section {
   flex-direction: column;
 }
+.section-container {
+  justify-content: space-between;
+}
 .top-section p {
   max-width: 423px;
   padding: 0 10px 0 0;
@@ -48,19 +51,42 @@ nav {
   margin-top: 10px;
 }
 .feedback-section {
+  width: 100%;
+  margin: 0;
   align-items: center;
+  justify-content: space-between;
 }
 .feedback-section p {
+  padding-left: 15px;
+  padding-right: 0;
   align-items: center;
   gap: 8px;
   white-space: nowrap;
-  margin-right: 33px;
 }
 .feedback-section svg {
+  margin: 0 3px;
   width: 13.35px;
   height: 13.35px;
 }
 .line-container {
   width: 100%;
-  margin-right: 10px;
+}
+section h2 {
+  font-weight: 400;
+  font-size: 22px;
+}
+h3.suggestions {
+  color: var(--primary-color);
+  padding: 5px 0;
+  font-size: 17px;
+}
+.suggestions-list {
+  justify-content: space-between;
+  padding: 5px 0;
+}
+.link-section h3{
+  margin: 5px 0;
+}
+.link-section p.tiny-text{
+  font-weight: normal;
 }
