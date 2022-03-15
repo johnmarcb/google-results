@@ -4,6 +4,7 @@
   --link-color: #8ab4f8;
   --primary-color: #bcc0c3;
   --line-color: #3a3a3a;
+  --bg-content-color: #303134;
 }
 
 body {
@@ -26,7 +27,9 @@ section {
   max-width: 652px;
   width: 100%;
 }
-
+table {
+  border-collapse: collapse;
+}
 ul {
   padding: 0;
   margin: 0;
@@ -35,6 +38,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: var(--primary-color);
 }
 p {
   margin: 0;
@@ -61,6 +65,12 @@ hr {
   border: none;
   height: 1px;
   background-color: var(--line-color);
+}
+footer {
+  margin-top: 20px;
+  background: #171717;
+  line-height: 40px;
+  padding-bottom: 12px;
 }
 .container {
   margin: 0 2%;
@@ -91,4 +101,7 @@ hr {
   width: 18px;
   margin-bottom: -5px;
   margin-left: 20px;
+}
+.selected {
+  color: var(--primary-color);
 }
