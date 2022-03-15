@@ -71,6 +71,9 @@ footer {
   background: #171717;
   line-height: 40px;
   padding-bottom: 12px;
+  width: 100%;
+  color: #9aa0a6;
+  font-size: 15px;
 }
 .container {
   margin: 0 2%;
